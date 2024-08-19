@@ -23,6 +23,9 @@ This project is designed to measure the deposition accuracy of electrodes in a r
 ## Installation
 
 1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Vigneshwar-KR/Electrode-Depositioning-Accuracy-Measurement-Tool.git
+    ```
 
 2. **Install the required dependencies:**
 
@@ -51,9 +54,7 @@ This project is designed to measure the deposition accuracy of electrodes in a r
 
 The excel file is structured the following manner,
 
-| Image File        | mid_group1_x (Base) [pixels] | mid_group1_y (Base) [pixels] | mid_group2_x [pixels]| mid_group2_y [pixels] | mid_group3_x [pixels] | mid_group3_y [pixels] | Distance Group 1-2 [pixels] | Distance Group 1-3 [pixels] | Distance Group 1-2 [mm] | Distance Group 1-3 [mm] |
-      
-|-------------------|------------------------|------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|----------------------|----------------------|
-| example_image.jpg | 216                    | 230                    | 732                           | 146                           | 789                           | 600                           | 522.7                 | 682.07                 | 38.06       | 49.66    |
 
-
+| Image File        | mid_group1_x (Base) [pixels] | mid_group1_y (Base) [pixels] | mid_group2_x [pixels] | mid_group2_y [pixels] | mid_group3_x [pixels] | mid_group3_y [pixels] | Distance Group 1-2 [pixels] | Distance Group 1-3 [pixels] | Distance Group 1-2 [mm] | Distance Group 1-3 [mm] |
+|-------------------|------------------------------|------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------------|-----------------------------|--------------------------|--------------------------|
+| example_image.jpg | 216                          | 230                          | 732                   | 146                   | 789                   | 600                   | 522.7                       | 682.07                      | 38.06                    | 49.66                    |
