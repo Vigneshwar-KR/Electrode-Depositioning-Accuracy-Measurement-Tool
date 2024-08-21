@@ -19,6 +19,10 @@ def find_midpoint(group):
 
 def process_images(folder_path):
     all_data = []
+    # Create the 'detected_circles' folder
+    output_folder = os.path.join(folder_path, 'detected_circles')
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
     for image_name in os.listdir(folder_path):
         image_path = os.path.join(folder_path, image_name)
@@ -122,12 +126,16 @@ def process_images(folder_path):
                 'Distance Group 1-3 Y [mm]': distance_1_3_y_in_mm
             })
 
-    # resized_image = resize_image(image, screen_width=800, screen_height=600)
-    # cv2.imshow(f'Hough Circle Detection - {image_name}', resized_image)
+            # resized_image = resize_image(image, screen_width=800, screen_height=600)
+            # cv2.imshow(f'Hough Circle Detection - {image_name}', resized_image)
 
-    # cv2.waitKey(0)
+            # cv2.waitKey(0)
 
-    # cv2.destroyAllWindows()
+            # cv2.destroyAllWindows()
+            # Save the processed image to the 'detected_circles' folder
+
+            output_image_path = os.path.join(output_folder, image_name)
+            cv2.imwrite(output_image_path, image)
 
 
     df = pd.DataFrame(all_data)
