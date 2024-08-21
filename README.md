@@ -14,11 +14,11 @@ This project is designed to measure the deposition accuracy of electrodes in a r
 
 ## Technologies Used
 
-- **Python:** 
-- **OpenCV:** 
-- **Scikit-Learn:** 
-- **Pandas:** 
-- **Tkinter:** 
+- **Python** 
+- **OpenCV** 
+- **Scikit-Learn** 
+- **Pandas** 
+- **Tkinter** 
 
 ## Installation
 
