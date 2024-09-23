@@ -60,6 +60,6 @@ The excel file is structured the following manner,
 | example_image.jpg | 216                          | 230                          | 732                   | 146                   | 789                   | 600                   | 522.7                       | 682.07                      | 38.06                    | 49.66                    |
 
 
-<table> <tr> <td><img src="IMG_20240822_152302.jpg" alt="Original Image" width="400"/></td> <td><img src="IMG_20240822_152302_detected.jpg" alt="Detected Image" width="400"/></td> </tr> <tr> <td align="center">Original Image</td> <td align="center">Detected Image</td> </tr> </table> 
+<table> <tr> <td><img src="Sample_outputs/IMG_20240822_152302.jpg" alt="Original Image" width="400"/></td> <td><img src="Sample_outputs/IMG_20240822_152302_detected.jpg" alt="Detected Image" width="400"/></td> </tr> <tr> <td align="center">Original Image</td> <td align="center">Detected Image</td> </tr> </table> 
 
-<p align="center"> <img src="parameters.png" alt="Parameters" width="600"/> </p>
+<p align="center"> <img src="Sample_outputs/parameters.png" alt="Parameters" width="600"/> </p>
