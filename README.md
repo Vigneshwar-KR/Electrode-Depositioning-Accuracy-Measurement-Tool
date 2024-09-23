@@ -58,3 +58,8 @@ The excel file is structured the following manner,
 | Image File        | mid_group1_x (Base) [pixels] | mid_group1_y (Base) [pixels] | mid_group2_x [pixels] | mid_group2_y [pixels] | mid_group3_x [pixels] | mid_group3_y [pixels] | Distance Group 1-2 [pixels] | Distance Group 1-3 [pixels] | Distance Group 1-2 [mm] | Distance Group 1-3 [mm] |
 |-------------------|------------------------------|------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------------|-----------------------------|--------------------------|--------------------------|
 | example_image.jpg | 216                          | 230                          | 732                   | 146                   | 789                   | 600                   | 522.7                       | 682.07                      | 38.06                    | 49.66                    |
+
+
+<table> <tr> <td><img src="IMG_20240822_152302.jpg" alt="Original Image" width="400"/></td> <td><img src="IMG_20240822_152302_detected.jpg" alt="Detected Image" width="400"/></td> </tr> <tr> <td align="center">Original Image</td> <td align="center">Detected Image</td> </tr> </table> 
+
+<p align="center"> <img src="parameters.png" alt="Parameters" width="600"/> </p>
